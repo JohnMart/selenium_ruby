@@ -1,0 +1,3 @@
+# cucumber config file
+
+html: --format html --out reports\test.html
