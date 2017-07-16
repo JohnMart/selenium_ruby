@@ -1,5 +1,3 @@
-require 'watir'
-
 Before do
   # setup a list of search terms.
   @search_terms ||= {

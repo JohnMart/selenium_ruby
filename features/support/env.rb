@@ -1,7 +1,5 @@
 require 'watir'
 require 'page-object'
-require 'pry'
-require 'pry-nav'
 
 # launch an instance of chrome.
 browser = Watir::Browser.new :chrome

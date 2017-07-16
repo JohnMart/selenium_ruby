@@ -12,9 +12,3 @@ Feature: cart
     When I add an item to the cart
     And I navigate to the cart page
     Then the item is displayed
-
-  Scenario: Remove item from the cart
-    Given an item exists in the cart
-    And I navigate to the cart page
-    When I remove the item
-    Then the item is not displayed
