@@ -6,7 +6,8 @@ Feature: cart
 
   Background: Navigate to the Etsy website
     Given I navigate to the Etsy website
-
+  
+  @cleanup
   Scenario: Add item to the cart
     When I add an item to the cart
     And I navigate to the cart page
